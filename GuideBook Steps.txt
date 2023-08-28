@@ -1,0 +1,23 @@
+Program: SuperMarket Billing System
+
+* Included libraries too execute certian commands
+
+* Class Shopping
+    - Private member variables
+        {Contains set variables such as the product name, price, discounts, and product code}
+    - Public member functions
+        {A set of functions declared at the start of the program to later be executued. 
+        These functions are all voided as they need to return a value. } 
+
+* Void Shopping (Menu)
+    - {The user will be asked to login via an email and a password.}
+        - {The administrator can also login via this way and if they do they get sent to the administrator function}
+    - {Once the user enters their email, their email will be stored and they will be entered into the buyer function with also the option to exit the program.}
+
+
+    * Void Shopping (Administrator)    
+         - {In this menu the admin will be able to select 4 different choices, add, modify, remove as well as exit back to main menu. }
+
+    * Void Shopping (Buyer)
+        - {The buyer page will have one of 2 things, buying the product as well as going back to the main menu.}
+            - {If 1), then the function will provide a receipt for the product}
